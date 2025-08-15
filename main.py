@@ -9,7 +9,7 @@ import os
 load_dotenv()
 API_KEY = os.getenv("HUGGINGFACE_API_KEY")
 
-API_URL = "https://api-inference.huggingface.co/models/alvdansen/littletinies"
+API_URL = "https://huggingface.co/alvdansen/littletinies"
 headers = {"Authorization": f"Bearer {API_KEY}"}
 
 def query(payload):
